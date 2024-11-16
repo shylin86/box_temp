@@ -1,0 +1,153 @@
+/* 
+    Created on : 14-Nov-2024, 10:33:12 am
+    Author     : shyli
+*/
+
+body {
+    font-family: Arial,Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .bg{
+        width: 450px;
+        margin: 0 auto;
+  }
+  header{
+      margin-top: 8em;
+      display: block;
+  }
+  section{
+      display: block;
+  }
+  .head_box{
+      float: left;
+      width: 150px;
+  }
+  
+  hr{
+      margin-bottom: 0;
+      margin-top: 10px;
+      color: darkgray;
+      border: 0;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+  }
+  h1{
+      color: #ff1365;
+      margin: 0;
+      text-align: center;
+      font-size: 20px;
+  }
+  .clear{
+      clear: both;
+  }
+  .box{
+      border: 1px solid darkgray;
+      margin: 10px 0px;
+  }
+  .box_bg{
+      border: 1px solid #ff1365;
+      margin: 10px 0px;
+      background: #fff6f6;
+  }
+  .inner_box{
+      width: 224px;
+      float: left;
+      padding: 10px 0;
+  }
+  .inner_box_right{
+      width: 224px;
+      float: left;
+      padding: 10px 0;
+      display: block;
+      text-align: center;
+  }
+  input{
+        
+        font-weight: normal;
+        line-height: 1.5em;
+        letter-spacing: -0.015em;
+  }
+  h4{
+      margin: 0;
+  }
+  .lbl_dis{
+      background: #ff1365;
+      color: #fff;
+      padding: 3px;
+  }
+  .lblcls{
+      margin-left: 26px;
+      font-size: 13px;
+      line-height: 1.8;
+  }
+  .lbl_line{
+      font-size: 13px;
+      color: dimgray;
+      text-decoration: line-through;
+      line-height: 1.8;
+  }
+  .lbl_txt{
+      padding-left: 10px;
+  }
+  input:checked {
+  width: 1em;
+  height: 0.8rem;
+  accent-color: deeppink;
+}
+.div_select{
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+th, td {
+  padding: 6px;
+  text-align: left;
+  font-weight: normal;
+}
+select{
+    border: 1px solid darkgray;
+    width: 80px;
+    height: 30px;
+    background: #fff;
+}
+.header_right{
+    text-align: center;
+    text-transform: uppercase;
+    width:160px;
+    float: right;
+}
+h4{
+    background: #ff1365;
+    padding: 4px;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+#content1{
+    display: none;
+}
+#content2{
+    display: block;
+}
+#content3{
+    display: none;
+}
+.inner_box p{
+    color: #ff1365;
+    margin: 0;
+}
+#txt_total{
+    text-align: right ;
+}
+.btn{
+    width: 450px;
+    padding: 6px 0;
+    background: #ff1365;
+    border: 1px solid #ff1365;
+    color: #fff;
+    border-radius: 5px;
+}
+footer{
+    text-align: right;
+    color: dimgray;
+    display: block;
+}
